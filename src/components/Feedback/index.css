@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  max-width: 606px;
+  padding: 24px;
+  width: 80%;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+
+.emojis-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.emoji-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.emoji {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.emoji-name {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'roboto';
+}
+.app-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.love-emoji{
+  height: 54px;
+  width: 60px;
+}
+
+.thank-you-text{
+  font-size: 30px;
+  font-family: 'roboto';
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.desc{
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #0f172a;
+  font-weight: 400;
+
+}
